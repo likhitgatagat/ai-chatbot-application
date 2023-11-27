@@ -16,7 +16,7 @@ app.use(express.json());
 const airtableBase = new Airtable({
   apiKey: process.env.AIRTABLE_API_KEY,
 }).base(process.env.AIRTABLE_BASE_ID);
-const airtableTable = airtableBase("Likhit Gatagat Embeddings");
+const airtableTable = airtableBase(process.env.AIRTABLE_BASE_TABLE_NAME);
 const airtableView = airtableTable.select({ view: "Grid view" });
 
 // open ai configuration
