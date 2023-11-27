@@ -56,6 +56,11 @@ Application will start on port 3000
 
 Navigate to your favorite browser and hit http://localhost:3000
 
-You will Chat prompt along with other UI elements.
+You will see Chat prompt along with other UI elements.
 
 That's it!!!
+
+
+# Application Demo Link
+
+https://www.youtube.com/watch?v=sbWAdFXIST8&t=2s 
