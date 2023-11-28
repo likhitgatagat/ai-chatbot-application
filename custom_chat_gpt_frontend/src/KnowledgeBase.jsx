@@ -29,7 +29,7 @@ const KnowledgeBase = ( {handleLogout} ) => {
   };
   
   const addEmbedding = (text, embedding) => {
-    var base = new Airtable({apiKey: 'pat4OmmfqTawdexhb.c4eda82930f0da1bfcb8d9cb36e8ce6656354ec0d1fd695382fef26c002fb575'}).base('appfnTH6WHqdQVTnq');
+    var base = new Airtable({apiKey: '<CUD_API_KEY_GOES_HERE>'}).base('<BASE_ID_GOES_HERE>');
     base('Likhit Gatagat Embeddings').create([
       {
         "fields": {
