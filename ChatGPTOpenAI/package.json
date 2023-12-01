@@ -7,7 +7,7 @@
   "scripts": {
     "start": "index_embeddings.js"
   },
-  "author": "Saroj",
+  "author": "Likhit",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
